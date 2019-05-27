@@ -7,7 +7,7 @@ export default class SearchInput extends React.Component {
             <View style={styles.container}>
                 <TextInput 
                     autoCorrect={false}
-                    placeholder="Search any city"
+                    placeholder={this.props.placeholder}
                     placeholderTextColor="white"
                     style={styles.textInput}
                     clearButtonMode="always"
